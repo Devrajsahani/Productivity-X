@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import TodoContext from "../contexts/todoContext";
 import TodoItem from "../components/TodoItem";
-import TodoForm from "../components/todoForm";
+import TodoForm from "../components/TodoForm";
 
 
 console.log("TODOS JSX LOADED");
