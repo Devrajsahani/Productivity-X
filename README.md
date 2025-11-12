@@ -1,16 +1,62 @@
-# React + Vite
+# 🚀 Productivity-X  
+A multi-tool productivity dashboard built with **React**, designed to help users manage everyday tasks like **To-Do tracking**, **Weather updates**, **GitHub analytics**, and more — all within a single responsive interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🧠 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Productivity-X** is a modern web app built to consolidate multiple productivity tools under one roof.  
+This project marks the *second step* in my journey to becoming a **Full Stack Developer** —  
+after mastering backend fundamentals, I moved into learning **React.js** and built this project to put all those concepts into real-world use.
 
-## React Compiler
+I started by learning React from **Chai aur Code (Hitesh Choudhary)** on YouTube and then implemented the concepts from scratch — not just watching, but actually building, debugging, and experimenting to make sure I understood the “why” behind every concept.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💡 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ **Multi-Page React App** using React Router  
+✅ **To-Do Manager** with persistent storage using Context API  
+✅ **GitHub Profile Analyzer** using GitHub REST API  
+✅ **Weather Forecast** page powered by OpenWeather API  
+✅ **Dark / Light Theme Toggle** (custom Theme Context)  
+✅ **Login, Signup, and Protected Routes** using mock AuthContext  
+✅ **Profile Management** with editable user info  
+✅ Fully **responsive** with **TailwindCSS**
+
+---
+
+## 🧩 Tech Stack
+
+**Frontend:**  
+- React.js (Vite)  
+- React Router DOM  
+- TailwindCSS  
+
+**State Management:**  
+- Context API  
+- useReducer (optional for future upgrades)
+
+**APIs:**  
+- GitHub REST API  
+- OpenWeather API
+
+**Deployment:**  
+- Vercel- https://productivity-x-fe9z.vercel.app/
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/Devrajsahani/Productivity-X.git
+
+# Navigate to the project directory
+cd Productivity-X
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
